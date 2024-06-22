@@ -1,6 +1,4 @@
-Sure, I can improve the documentation for each of these components:
 
----
 
 ## Bridge
 
@@ -30,6 +28,13 @@ class MyApp extends StatelessWidget {
       title: 'My App',
       home: MyHomePage(),
       theme: ThemeData(primarySwatch: Colors.blue),
+          didChangeAppLifecycleState: (AppLifecycleState state) {
+      // Here Write DidChangeAppLifecycleState Code
+      print(state);
+    },
+    initState: (context) {
+      // Here Write InitState Code
+    },
     );
   }
 }

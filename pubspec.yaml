@@ -2,7 +2,7 @@ name: bridge_me
 description: "Bridge frees you from context restrictions. Use the bridge Package"
 homepage: https://github.com/codexsourav/bridge_me
 repository: https://github.com/codexsourav/bridge_me
-issue_tracker: https://github.com/codexsourav/bridge_me
+issue_tracker: https://github.com/codexsourav/bridge_me/issues
 
 
 # The following defines the version and build number for your application.
@@ -19,7 +19,7 @@ issue_tracker: https://github.com/codexsourav/bridge_me
 # This version is used _only_ for the Runner app, which is used if you just do
 # a `flutter run` or a `flutter make-host-app-editable`. It has no impact
 # on any other native host app that you embed your Flutter project into.
-version: 1.0.2+2
+version: 1.0.3+2
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
